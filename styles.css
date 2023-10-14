@@ -51,7 +51,7 @@ header nav ul li a {
 /* Hero Section Styles */
 .hero-section {
     background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: white;
+    color: #333;  /* Update text color to dark */
     padding: 100px 0;
     text-align: center;
 }
