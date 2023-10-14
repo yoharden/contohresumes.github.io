@@ -4,6 +4,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ...Previous CSS code... */
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd; /* Make border color same as control button */
+    border-radius: 10px; /* Optional: for rounded corners */
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.next {
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* ...Rest of the CSS code... */
+
 
 body {
     font-family: Arial, sans-serif;
