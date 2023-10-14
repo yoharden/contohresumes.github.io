@@ -1,0 +1,38 @@
+/* Reset some default browser styles */
+body, h1, h2, p, footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a background color and some padding around the whole page */
+body {
+  background-color: #f4f4f4;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #50b3a2;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Style the main content */
+main {
+  margin: 15px;
+  padding: 15px;
+  background-color: #fff;
+}
+
+/* Style the footer */
+footer {
+  background-color: #50b3a2;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
