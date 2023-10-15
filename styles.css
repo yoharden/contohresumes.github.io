@@ -16,6 +16,14 @@
     border-radius: 10px; /* Optional: for rounded corners */
 }
 
+.slide {
+    background-image: url('images/template1.jpg');
+    background-image: url('images/template2.jpg');
+    background-image: url('images/template3.jpg');
+    background-image: url('images/template4.jpg');
+    background-image: url('images/template5.jpg');
+}
+
 .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
