@@ -29,8 +29,12 @@ header, footer {
     font-size: 36px;
     margin-bottom: 20px;
 }
+#resume-templates {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
 
-/* ...Other CSS code... */
 
 .carousel {
     position: relative;
@@ -41,36 +45,44 @@ header, footer {
     border-radius: 10px;
 }
 
-.slides {
+/* ...Other CSS code... */
+
+#resume-templates {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.template-grid {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
 }
 
-.slide {
-    min-width: 100%;
-    box-sizing: border-box;
+.template-item {
+    flex: 1;
+    max-width: 200px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.carousel-control {
-    position: absolute;
-    top: 50%;
-    background-color: #ddd;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+.template-item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
-.prev {
-    left: 0;
-    transform: translateY(-50%);
-}
-
-.next {
-    right: 0;
-    transform: translateY(-50%);
+/* Responsive styles */
+@media (max-width: 768px) {
+    .template-grid {
+        flex-direction: column;
+    }
 }
 
 /* ...Other CSS code... */
+
 
 /* Responsive styles */
 @media (max-width: 768px) {
